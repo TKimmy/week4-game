@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Game</title>
+  <style>
+   background-image: url("abstract-watercolor-multicolor-bokeh-background-04_bprquazq__F0000.png");
+  </style>
+</head>
+<body>
+
+  <h1>Crystal Game</h1>
+
+  <script type="text/javascript">
+
+  var targetNumber = Math.floor(Math.random() * 109 +19);
+  $("#number-to-guess").text(targetNumber);
+  var wins = 0;
+  var losses = 0;
+  $("#wins").text(wins);
+  $("#losses").text(losses);
+
+
+  var counter = 0;
+  $("#counter").text(counter);
+
+
+  var numberOptions = [];
+
+
+  
+  for (var i = 0; i < 4; i++) {
+    numberOptions.push(Math.floor(Math.random() * 11 + 1));
+  }
+  
+
+
+
+  
+
+
+  
+
+
+
+
+</script>
+</body>
+</html>
